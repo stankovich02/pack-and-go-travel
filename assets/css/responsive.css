@@ -1,0 +1,304 @@
+@media (max-width: 1399px) {
+  header .navigation {
+    font-size: 14px;
+  }
+  header .drop-menu a {
+    font-size: 14px;
+  }
+  header .nav-icon {
+    font-size: 14px;
+  }
+  header #header-icons a .iconify {
+    font-size: 20px;
+  }
+  .wrapper{
+    top: 22%;
+  }
+  .wrapper .destination p{
+    font-size: 60px;
+  }
+  .wrapper .description p {
+    font-size: 25px;
+    margin: 5px 10px;
+    
+  }
+}
+@media(max-width: 1199px){
+  #transport h2 {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+  
+  #transport .transport-icon {
+    font-size: 65px;
+    margin-bottom: 30px;
+  } 
+  #transport p {
+    font-size: 15px;
+  }
+  .city-desc h5 {
+    font-size: 17px;
+  }
+  .city-desc p {
+   font-size: 15px;
+  }
+  .form-row{
+    width: 75%!important;
+  }
+}
+@media (max-width: 1100px){
+  .wrapper{
+    top: 18%;
+  }
+  .wrapper .destination p{
+    font-size: 50px;
+  }
+  .wrapper .description p {
+    font-size: 20px;
+    margin: 5px 10px;
+  }
+  footer .footer-info .footer-icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  footer .footer-info p, footer .footer-info a{
+    font-size: 15px;
+  }
+}
+@media (max-width: 1000px){
+  @keyframes slide{
+    100%{
+        top: -300px;
+    }
+  }
+  #quotes .dynamic-txts li .quote p{
+    font-size: 25px; 
+  }
+}
+@media (max-width: 991px) {
+  .navigation {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  
+  #hero-slider{
+    padding-top: 18%;
+  }
+  #packandgo p{
+    font-size: 30px;
+  }
+  .nav-direction {
+    padding-top: 240px;
+  }
+  .price{
+    font-size: 21px;
+  }
+  .travel-cover{
+    padding-top: 17%;
+  }
+  .desc p{
+    font-size: 18px;
+  }
+  iframe:nth-of-type(1){
+    display: none;
+  }
+  iframe:nth-of-type(2){
+    display: block;
+  }
+  iframe:nth-of-type(3){
+    display: none;
+  }
+  iframe:nth-of-type(4){
+    display: block;
+  }
+}
+@media(max-width: 850px){
+  @keyframes slide{
+    100%{
+        top: -280px;
+    }
+}
+  .wrapper{
+    top: 20%;
+  }
+  .wrapper .destination p{
+    font-size: 45px;
+  }
+  .wrapper .description p {
+    font-size: 20px;
+    margin: 5px 10px;
+  }
+  #quotes{
+    height: 60px;
+  }
+  #quotes .dynamic-txts li .quote p{
+    font-size: 20px; 
+  }
+  .travel-cover{
+    padding-top: 20%;
+  }
+  .div{
+    width: 75%!important;
+  }
+}
+@media(max-width: 767px){
+ #hero-slider{
+  padding-top: 23%;
+}
+footer{
+  padding: 0px 0px;
+}
+footer .footer-info {
+  border-bottom: 2px solid white;
+  border-right: none;
+  height: 180px;
+}
+footer .footer-info:last-child{
+  border-bottom: none;
+}
+.travel-footer:first-child{
+  border-top: 2px solid white;
+}
+.footer{
+  border-bottom: 2px solid white;
+}
+.form-row{
+  width: 85%!important;
+}
+}
+@media(max-width: 700px)
+{
+  @keyframes slide{
+    100%{
+        top: -270px;
+    }
+  }
+  header .navigation {
+    font-size: 12px;
+  }
+  header .drop-menu a {
+   font-size: 12px;
+  }
+  header .nav-icon {
+    font-size: 12px;
+  }
+  header #header-icons a .iconify {
+    font-size: 18px;
+  }
+  .wrapper{
+    top: 22%;
+  }
+  .wrapper .destination p{
+    font-size: 40px;
+  }
+  .wrapper .description p {
+    font-size: 18px;   
+  }
+  #packandgo p{
+    font-size: 25px;
+  }
+  #popular-destionations {
+    margin-bottom: 150px;
+  }
+  #transport{
+    margin-top: 150px;
+  }
+  #quotes {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  #quotes .dynamic-txts li .quote p{
+    font-size: 18px; 
+  }
+  .travel-cover{
+    padding-top: 23%;
+  }
+}
+@media (max-width: 650px)
+{
+  .reservation p{
+    font-size: 15px;
+  }
+  .price{
+    font-size: 16px;
+  }
+  .form-row{
+    width: 100%!important;
+  }
+}
+@media (max-width: 625px){
+  @keyframes slide{
+    100%{
+        top: -270px;
+    }
+  }
+  #quotes .dynamic-txts li .quote p{
+    font-size: 16px;
+  }
+  .desc p{
+    font-size: 16px;
+  }
+  .contact-row{
+    width: 85%!important;
+  }
+  form h1{
+    font-size: 30px;
+  }
+}
+@media (max-width: 575px)
+{
+  #hero-slider{
+    padding-top: 32%;
+  }
+  .wrapper{
+    top: 18%;
+  }
+  .wrapper .destination p{
+    font-size: 30px;
+  }
+  .wrapper .description p {
+    font-size: 15px;
+  }
+  #packandgo p{
+    font-size: 20px;
+  }
+  #popular-destionations {
+    margin-bottom: 100px;
+  }
+  #transport{
+    margin-top: 100px;
+  }
+  #quotes {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .city-head{
+    padding-top: 250px;
+  }
+  .travel-cover{
+    padding-top: 30%;
+  }
+  .about p{
+    font-size: 16px;
+  }
+}
+@media (max-width: 565px){
+  @keyframes slide{
+    100%{
+        top: -320px;
+    }
+  }
+  #quotes .dynamic-txts li .quote p{
+    font-size: 18px;
+  }
+  #quotes{
+    height: 60px;
+  }
+}
+@media (max-width: 525px)
+{
+  .travel-cover{
+    padding-top: 35%;
+  }
+}
