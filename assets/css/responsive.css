@@ -112,6 +112,9 @@
   iframe:nth-of-type(4){
     display: block;
   }
+  .reservation{
+    width: 75%!important;
+  }
 }
 @media(max-width: 850px){
   @keyframes slide{
@@ -145,27 +148,30 @@
 @media(max-width: 767px){
  #hero-slider{
   padding-top: 23%;
-}
-footer{
-  padding: 0px 0px;
-}
-footer .footer-info {
-  border-bottom: 2px solid white;
-  border-right: none;
-  height: 180px;
-}
-footer .footer-info:last-child{
-  border-bottom: none;
-}
-.travel-footer:first-child{
-  border-top: 2px solid white;
-}
-.footer{
-  border-bottom: 2px solid white;
-}
-.form-row{
-  width: 85%!important;
-}
+  }
+  footer{
+    padding: 0px 0px;
+  }
+  footer .footer-info {
+    border-bottom: 2px solid white;
+    border-right: none;
+    height: 180px;
+  }
+  footer .footer-info:last-child{
+    border-bottom: none;
+  }
+  .travel-footer:first-child{
+    border-top: 2px solid white;
+  }
+  .footer{
+    border-bottom: 2px solid white;
+  }
+  .form-row{
+    width: 85%!important;
+  }
+  .reservation{
+    width: 85%!important;
+  }
 }
 @media(max-width: 700px)
 {
@@ -282,6 +288,9 @@ footer .footer-info:last-child{
   .about p{
     font-size: 16px;
   }
+  .reservation{
+    width: 95%!important;
+  }
 }
 @media (max-width: 565px){
   @keyframes slide{
@@ -309,11 +318,17 @@ footer .footer-info:last-child{
   .wrapper{
     top: 10%;
   }
+  #header-icons a{
+    margin: 0px 5px;
+  }
   .travel-cover{
     padding-top: 40%;
   }
   #copyright{
    margin-top: 50px;
+  }
+  .nav-direction .row{
+    width: 90%!important;
   }
   .contact .row{
     width: 100%!important;
@@ -326,6 +341,13 @@ footer .footer-info:last-child{
   }
   .form-row button{
     font-size: 12px;
+  }
+  .reservation .col{
+    flex-direction: column;
+  }
+  .insurance{
+    justify-content: center;
+    
   }
 }
 @media (max-width: 375px){
@@ -392,9 +414,15 @@ footer .footer-info:last-child{
     font-size: 12px;
   }
   .nav-direction li , .nav-direction p{
-    font-size: 13px;
+    font-size: 14px;
   }
   form h1{
     font-size: 24px;
+  }
+  .insurance{
+    padding-left: 60px!important;
+  }
+  button[type=reset]{
+    font-size: 13px;
   }
 }
