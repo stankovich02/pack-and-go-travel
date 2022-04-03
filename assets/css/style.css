@@ -118,15 +118,15 @@ ul li {
   margin: 5px 10px;
 }
 
-#popular-destionations {
+#popular-destinations {
   margin-bottom: 200px;
 }
 
-#popular-destionations h1 {
+#popular-destinations h1 {
   font-weight: bold;
 }
 
-#popular-destionations h5, #popular-destionations p, #popular-destionations a {
+#popular-destinations h5, #popular-destinations p, #popular-destinations a {
   font-weight: bold;
 }
 
@@ -240,6 +240,7 @@ footer .footer-info .footer-icon {
 
 .desc p {
   font-size: 20px;
+  text-align: justify;
 }
 
 .caption {
@@ -268,6 +269,10 @@ footer .footer-info .footer-icon {
 
 .city-desc h5 {
   font-weight: bold;
+}
+
+.city-desc P {
+  text-align: justify;
 }
 
 label {
