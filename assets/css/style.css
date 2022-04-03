@@ -56,6 +56,18 @@ header #header-icons a {
   color: black;
 }
 
+header #header-icons a:first-child:hover {
+  color: #025fa6;
+}
+
+header #header-icons a:nth-child(2):hover {
+  color: #b804b5;
+}
+
+header #header-icons a:last-child:hover {
+  color: #0fa7ff;
+}
+
 header #header-icons a .iconify {
   font-size: 25px;
 }
@@ -116,6 +128,16 @@ ul li {
 
 #popular-destionations h5, #popular-destionations p, #popular-destionations a {
   font-weight: bold;
+}
+
+.card {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 #packandgo {
@@ -272,6 +294,16 @@ label {
 
 .city-head h1 {
   font-weight: bold;
+}
+
+.companies img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.companies img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 iframe:nth-of-type(2) {

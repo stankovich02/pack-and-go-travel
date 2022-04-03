@@ -35,6 +35,15 @@ header{
 #header-icons{
     a{
        color: black;
+       &:first-child:hover{
+           color: #025fa6;
+       }
+       &:nth-child(2):hover{
+        color: #b804b5;
+       }
+       &:last-child:hover{
+        color: #0fa7ff;
+       }
         .iconify{
             font-size: 25px;
         }
@@ -48,8 +57,8 @@ header{
 ul{
     li{
         display: flex;
+        }
     }
-}
 .wrapper{
     top: 25%;
     left: 0;
@@ -84,6 +93,12 @@ ul{
     }
     h5,p,a{
         font-weight: bold;
+    }
+}
+.card{
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.05);
     }
 }
 #packandgo{
@@ -226,6 +241,14 @@ label{
 .city-head{
     h1{
         font-weight: bold;
+    }
+}
+.companies{
+    img{
+        transition: 0.5s;
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 }
 iframe:nth-of-type(2){
